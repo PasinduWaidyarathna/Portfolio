@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Talents Page</title>
+<link rel="stylesheet" href="../css/headerandfooter.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+main {
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2em 0;
+}
+.talents-section {
+background: #fff;
+padding: 2em;
+margin: 1em;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+max-width: 1200px;
+width: 100%;
+}
+.talents-section h2 {
+text-align: center;
+color: #333;
+margin-bottom: 1.5em;
+}
+.box-container {
+display: flex;
+flex-wrap: wrap;
+gap: 1.5em;
+justify-content: center;
+}
+.box {
+background: #f9f9f9;
+padding: 1.5em;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+flex: 1;
+min-width: 250px;
+max-width: calc(25% - 1.5em);
+box-sizing: border-box;
+text-align: center;
+}
+.box i {
+font-size: 3em;
+color: #007bff;
+margin-bottom: 0.5em;
+}
+.box h3 {
+color: #333;
+margin-bottom: 0.5em;
+}
+.box p {
+color: #555;
+line-height: 1.6;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="personal-blog">
+<h2>Personal Blog</h2>
+</div>       
+<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="goals.html">Goals</a></li>
+<li><a href="work.html">Work</a></li>
+<li><a href="achievements.html">Achievements</a></li>
+<li><a href="talents.html">Talents</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="content talents-section">
+<h2>Talents</h2>
+<hr><br/><br/>
+<div class="box-container">
+<div class="box">
+<i class="fas fa-code"></i>
+<h3>Web Development</h3>
+<p>Proficient in building responsive and user-friendly websites using the latest web technologies, including HTML, CSS, JavaScript, and various web frameworks and libraries.</p>
+</div>
+<div class="box">
+<i class="fas fa-cogs"></i>
+<h3>IOT Development</h3>
+<p>Experienced in developing Internet of Things (IOT) applications and devices, integrating hardware and software components to create innovative solutions.</p>
+</div>
+<div class="box">
+<i class="fas fa-microchip"></i>
+<h3>PCB Design</h3>
+<p>Skilled in designing and creating high-quality printed circuit boards (PCBs) using industry-standard tools and techniques.</p>
+</div>
+<div class="box">
+<i class="fas fa-brain"></i>
+<h3>ML Development</h3>
+<p>Experienced in developing machine learning models and applications, leveraging various algorithms and techniques to solve complex problems.</p>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<p>&copy; 2024 Pasindu Waidyarathna</p>
+</footer>
+</body>
+</html>
